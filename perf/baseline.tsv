@@ -1,0 +1,16 @@
+# benchmark_name<TAB>max_ns_per_op
+BenchmarkCompareByPK/orm	5000000
+BenchmarkCompareByPK/dbx	5000000
+BenchmarkCompareByPK/database_sql	5000000
+BenchmarkCompareInsertOne/orm	8000000
+BenchmarkCompareInsertOne/dbx	8000000
+BenchmarkCompareInsertOne/database_sql	8000000
+BenchmarkCompareListQuery/orm	10000000
+BenchmarkCompareListQuery/dbx	10000000
+BenchmarkCompareListQuery/database_sql	10000000
+BenchmarkCompareUpdateOne/orm	8000000
+BenchmarkCompareUpdateOne/dbx	8000000
+BenchmarkCompareUpdateOne/database_sql	8000000
+BenchmarkCompareBatchInsert/orm	12000000
+BenchmarkCompareBatchInsert/dbx	12000000
+BenchmarkCompareBatchInsert/database_sql	12000000
