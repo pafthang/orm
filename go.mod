@@ -4,7 +4,7 @@ go 1.25.5
 
 require (
 	github.com/jackc/pgx/v5 v5.7.6
-	github.com/pafthang/dbx v0.1.0
+	github.com/pafthang/dbx v0.1.1
 	modernc.org/sqlite v1.34.4
 )
 
@@ -29,3 +29,5 @@ require (
 	modernc.org/strutil v1.2.0 // indirect
 	modernc.org/token v1.1.0 // indirect
 )
+
+// replace github.com/pafthang/dbx => ../dbx // dbx local
